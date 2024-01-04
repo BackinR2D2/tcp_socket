@@ -1,0 +1,21 @@
+{
+	"name": "client",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/client.js",
+	"scripts": {
+		"start": "node ./dist/client.js",
+		"build": "tsc",
+		"dev": "nodemon ./src/client.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.10.6",
+		"nodemon": "^3.0.2"
+	},
+	"dependencies": {
+		"typescript": "^5.3.3"
+	}
+}
